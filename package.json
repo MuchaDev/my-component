@@ -2,7 +2,7 @@
     "name": "my-component",
     "version": "0.0.1",
     "scripts": {
-        "prepublish": "tsc --outDir ./dist"
+        "build": "tsc --outDir ./dist"
     },
     "angular-cli": {},
     "devDependencies": {
