@@ -1,6 +1,6 @@
 {
     "name": "my-component",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "scripts": {
         "build": "tsc"
     },
@@ -14,7 +14,7 @@
         "@angular/platform-browser": "^2.3.1",
         "@angular/platform-browser-dynamic": "^2.3.1",
         "@angular/router": "^3.3.1",
-        "typescript": "2.0.10"
+        "typescript": "2.1.4"
     },
     "typings": "./dist/my-component.d.ts",
     "module": "./dist/my-component.js"
