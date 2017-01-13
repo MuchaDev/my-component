@@ -9,7 +9,7 @@
         "declaration": true
     },
     "files": [
-        "my-component.component.ts"
+        "index.ts"
     ],
     "exclude": [
         "node_modules"
