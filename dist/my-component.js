@@ -4,4 +4,4 @@ function __export(m) {
 }
 __export(require('./my-component.module'));
 __export(require('./my-component.component'));
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=my-component.js.map
