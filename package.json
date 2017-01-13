@@ -15,5 +15,6 @@
         "@angular/platform-browser-dynamic": "^2.3.1",
         "@angular/router": "^3.3.1",
         "typescript": "2.0.10"
-    }
+    },
+    "typings": "./dist/my-component.d.ts"
 }
