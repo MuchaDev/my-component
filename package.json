@@ -1,20 +1,20 @@
 {
     "name": "my-component",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "scripts": {
         "build": "tsc && npm run html",
         "html": "copyfiles *.html dist/"
     },
     "angular-cli": {},
     "devDependencies": {
-        "@angular/common": "^2.3.1",
-        "@angular/compiler": "^2.3.1",
-        "@angular/core": "^2.3.1",
-        "@angular/forms": "^2.3.1",
-        "@angular/http": "^2.3.1",
-        "@angular/platform-browser": "^2.3.1",
-        "@angular/platform-browser-dynamic": "^2.3.1",
-        "@angular/router": "^3.3.1",
+        "@angular/common": "^2.4.3",
+        "@angular/compiler": "^2.4.3",
+        "@angular/core": "^2.4.3",
+        "@angular/forms": "^2.4.3",
+        "@angular/http": "^2.4.3",
+        "@angular/platform-browser": "^2.4.3",
+        "@angular/platform-browser-dynamic": "^2.4.3",
+        "@angular/router": "^3.4.3",
         "typescript": "2.1.4"
     },
     "typings": "./dist/my-component.d.ts",
