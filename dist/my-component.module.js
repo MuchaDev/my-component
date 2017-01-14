@@ -8,19 +8,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var my_component_component_1 = require('./my-component.component');
+var core_1 = require("@angular/core");
+var my_component_component_1 = require("./my-component.component");
 var MyComponentModule = (function () {
     function MyComponentModule() {
     }
-    MyComponentModule = __decorate([
-        core_1.NgModule({
-            declarations: [my_component_component_1.MyComponent],
-            exports: [my_component_component_1.MyComponent]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MyComponentModule);
     return MyComponentModule;
 }());
+MyComponentModule = __decorate([
+    core_1.NgModule({
+        declarations: [my_component_component_1.MyComponent],
+        exports: [my_component_component_1.MyComponent]
+    }),
+    __metadata("design:paramtypes", [])
+], MyComponentModule);
 exports.MyComponentModule = MyComponentModule;
 //# sourceMappingURL=my-component.module.js.map

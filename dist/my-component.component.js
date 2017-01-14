@@ -8,21 +8,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var MyComponent = (function () {
     function MyComponent() {
     }
     MyComponent.prototype.ngOnInit = function () {
         console.info("hello my component");
     };
-    MyComponent = __decorate([
-        core_1.Component({
-            selector: 'my-component',
-            template: "\n        <div>\n            <h3>hello my component</h3>\n        </div>"
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MyComponent);
     return MyComponent;
 }());
+MyComponent = __decorate([
+    core_1.Component({
+        selector: 'my-component',
+        moduleId: module.id,
+        templateUrl: "./my-component.component.html"
+    }),
+    __metadata("design:paramtypes", [])
+], MyComponent);
 exports.MyComponent = MyComponent;
 //# sourceMappingURL=my-component.component.js.map
