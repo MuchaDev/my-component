@@ -20,8 +20,7 @@ var MyComponent = (function () {
 MyComponent = __decorate([
     core_1.Component({
         selector: 'my-component',
-        //moduleId: module.id,
-        templateUrl: "my-component.component.html"
+        template: "\n         <div>\n             <h3>hello my component</h3>\n         </div>"
     }),
     __metadata("design:paramtypes", [])
 ], MyComponent);
